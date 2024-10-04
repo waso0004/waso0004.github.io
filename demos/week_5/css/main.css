@@ -1,0 +1,66 @@
+nav ul li a{
+    list-style: none;
+    text-decoration: none;
+}
+
+nav ul li{
+    list-style: none;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    background-color: rgb(80, 80, 80);
+}
+
+body {
+    background-color: rgb(207, 207, 207);
+    padding: 30px;
+    font-weight: bold;
+}
+
+h1 {
+    color: rgb(255, 145, 0);
+    font-size: 60px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+article {
+    color: aquamarine;
+}
+
+section table caption {
+    background-color: rgb(160, 164, 164);
+}
+
+.forms form div{
+    background-color: rgb(165, 164, 164);
+}
+
+section table tbody tr td:nth-child(even) {
+    background-color: rgb(129, 129, 129);
+}
+
+#back-to-top {
+    text-decoration: none;
+}
+
+#back-to-top:focus {
+    color: rgb(0, 255, 55);
+}
+
+
+/* [src="images/coffee-shop.jpg] */
+.image {
+    width: 500px;
+    box-shadow: 10px 10px 15px 2px grey;
+    /* H-offset - V-offset - Blur - Spread - Color */
+}
+
+/* Priorlity Value
+    Tag = 1
+    Class = 10
+    id = 100 
+*/
