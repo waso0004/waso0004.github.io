@@ -39,12 +39,12 @@ header, footer {
 
 main {
     clear: both;
-    padding: 25px;
+    padding-left: 40px;
 }
 
 .site-title {
-    padding-left: 20px;
-    padding-top: 20px;
+    padding-left: 40px;
+    padding-top: 23px;
     color: aliceblue;
 }
 
@@ -64,5 +64,6 @@ main {
 }
 
 footer {
+    color: aliceblue;
     clear: both;
 }
