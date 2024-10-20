@@ -1,83 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/style.css">
-        <title>waso0004 - Midterm</title>
-    </head>
-    <body>
-        <!-- Header section of the page containing banner and navigation bar -->
+<head>
+    <meta charset="UTF-8">
+    <!-- Viewport settings for responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to external CSS stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Webpage title -->
+    <title>waso0004 - Midterm</title>
+</head>
+<body>
+    <!-- Main wrapper -->
+    <div class="wrapper">
         <header>
+            <!-- Header container -->
+            <div class="header-container">
+                <!-- Main heading -->
+                <h1 class="heading">Contact</h1>
+                <!-- Background image -->
+                <img class="bg-img" src="images/lone-starfish-wide.jpg" alt="A picture of a starfish">
+            </div>
+
+            <!-- Navigation bar -->
+            <nav class="nav-bar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="story.html">Story</a></li>
+                    <li><a class="current" href="contact.html">Contact</a></li>
+                </ul>        
+            </nav>
         </header>
 
-    <!-- Main content wrapper for articles and sections -->
-    <main class="wrapper">
-        <div class="banner">
-            <!-- Main heading for the website -->
-            <h1 class="heading">Contact</h1>
-            <!-- Banner image for visual appeal -->
-            <img class="bg-img" src="images/lone-starfish-wide.jpg" alt="A picture of a starfish">
-        </div>
+        <main>
+            <!-- Contact section -->
+            <section>
+                <h2>Contact to learn more</h2>
+                <form>
+                    <!-- Name input -->
+                    <div>
+                        <label for="name">Full Name</label>
+                        <input type="text" name="name" id="name" placeholder="Jane Doe">
+                    </div>
 
-        <nav class="nav-bar">
-            <ul>
-                <!-- Links for Home, Story, and Contact pages; Story is highlighted as the current page -->
-                <li id="home"><a class="notcurrent" href="index.html">Home</a></li>
-                <li id="story"><a class="notcurrent" href="story.html">Story</a></li>
-                <li id="contact"><a class="current" href="contact.html">Contact</a></li>
-            </ul>        
-        </nav>
+                    <!-- Email input -->
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="janedoe@example.com">
+                    </div>
 
-        <!-- Contact section with a form for users to get in touch -->
-        <section class="form">
-            <h3>Contact to learn more</h3>
-            <form>
-                <!-- Input for user's full name -->
-                <div>
-                    <label for="name">Full Name</label>
-                    <input type="text" name="name" id="name" placeholder="Jane Doe">
-                </div>
+                    <!-- Message textarea -->
+                    <div>
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" cols="20" rows="10"></textarea>
+                    </div>
 
-                <!-- Input for user's email -->
-                <div>
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email" placeholder="janedoe@email.com">
-                </div>
+                    <!-- Options radio buttons -->
+                    <div>
+                        <input type="radio" id="Yes" name="options" value="Yes">
+                        <label for="Yes">Yes</label>
 
-                <!-- Textarea for user's message -->
-                <div>
-                    <label for="message">Message</label>
-                    <textarea name="message" id="message" cols="20" rows="10"></textarea>
-                </div>
+                        <input type="radio" id="No" name="options" value="No">
+                        <label for="No">No</label>
 
-                <!-- Radio buttons for user to choose an option -->
-                <div>
-                    <input type="radio" id="Yes" name="options" value="Yes">
-                    <label for="Yes">Yes</label>
-                    
-                    <input type="radio" id="No" name="options" value="No">
-                    <label for="No">No</label>
+                        <input type="radio" id="Maybe" name="options" value="Maybe">
+                        <label for="Maybe">Maybe</label>
+                    </div>
 
-                    <input type="radio" id="Maybe" name="options" value="Maybe">
-                    <label for="Maybe">Maybe</label>
-                </div>
+                    <!-- Send button -->
+                    <div>
+                        <input type="button" value="Send">
+                    </div>
+                </form>
+            </section>
+        </main>
 
-                <!-- Button to submit the form -->
-                <div>
-                    <input type="button" value="Send">
-                </div>
-            </form>
-        </section>
-
-        <div class="fake-footer">
-            <!-- Copyright notice -->
-            <p>&copy; Lone Starfish.</p>
-        </div>
-    </main>
-
-        <!-- Footer section for the page -->
+        <!-- Footer -->
         <footer>
+            <p>&copy; Lone Starfish.</p>
         </footer>
-    </body>
+    </div>
+</body>
 </html>
