@@ -1,0 +1,27 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+article {
+    font-size: 1.5rem;
+}
+
+article h3 {
+    font-size: 1.5rem;
+}
+
+article p {
+    font-size: 1rem;
+}
