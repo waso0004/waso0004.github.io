@@ -84,20 +84,21 @@ table {
 .story-wrapper {
     margin: 10px;
     background-color: #f7fdfc;
-    padding: 20px;
+    padding-bottom: 10PX;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border: 1px solid black;
 }
 
 /* Headings */
-h1, h2, h3 {
+h2, h3 {
     font-weight: bold;
     margin: 15px 0;
     padding: 10px;
 }
 
 h1 {
+	font-weight: bold;
     font-size: 3em;
 }
 
