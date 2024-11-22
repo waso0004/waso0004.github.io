@@ -99,10 +99,35 @@ header .banner {
     background-color: rgb(31, 31, 31);
     color: aliceblue;
     padding: 100px;
+    background-image: url("../images/coffee-img-3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header .banner .banner-info {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 50px;
+    text-align: center;
+}
+
+.banner-info h1 {
+    font-size: 3rem;
+    margin-bottom: 50px;
+}
+
+.banner-info .gallery-btn {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: beige;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
 }
 
 header .banner h1 {
     text-align: center;
+
 }
 
 nav {
@@ -206,6 +231,28 @@ iframe {
 footer {
     background-color: rgb(31, 31, 31);
     color: rgb(255, 255, 255);
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-info .social-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.footer-info .social-icons a {
+    color: white;
+    font-size: 18px;
+}
+
+.footer-info .social-icons a:hover, .footer-info .social-icons a:focus {
+    color: darkgrey;
 }
 
 @media screen and (min-width: 720px) {

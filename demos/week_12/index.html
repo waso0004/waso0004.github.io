@@ -7,14 +7,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c5f1fd962e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
         <div class="banner">
-             <h1>Week 12 Demo</h1> 
+            <div class="banner-info">
+                <h1>Week 12 Demo</h1>
+                <a href="#gallery-section" class="gallery-btn">View Gallery</a>
+            </div>
+             
         </div>
-
         <nav class="nav-bar">
             <div class="wrapper">
                 <ul>
@@ -54,7 +58,7 @@
                 </div>
             </section>
 
-            <section class="gallery-section">
+            <section class="gallery-section" id="gallery-section">
                 <h2>Gallery</h2>
                 <div class="images">
                     <img src="images/coffee-img-1.jpg" alt="Cup of coffee">
@@ -79,7 +83,16 @@
 
     <footer>
         <div class="wrapper">
-            <p>&copy; 2024 Algonquin Cafe.</p>
+            <div class="footer-info">
+                <div>
+                    <p>&copy; 2024 Algonquin Cafe.</p>
+                </div>
+                <ul class="social-icons">
+                    <li><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram" ></i></a></li>
+                    <li><a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
+                    <li><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                </ul>
+            </div>
         </div>
     </footer>
 </body>
