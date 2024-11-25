@@ -48,3 +48,27 @@ table {
 }
 
 /* CSS Start */
+.wrapper {
+	max-width: 1200px;
+	padding: 20px;
+}
+.nav-bar {
+	background-color: #222;
+}
+
+.nav-bar ul li {
+	text-align: center;
+	padding: 10px;
+}
+
+.nav-bar ul li .current {
+	background-color: #c78c06;
+	text-align: center;
+	color: #222;
+}
+
+.nav-bar ul li a{
+	text-align: center;
+	text-decoration: none;
+	
+}
