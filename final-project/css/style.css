@@ -152,13 +152,16 @@ body {
 	}
 
 	.nav-bar {
+		width: 100%;
 		padding: 20px;
 	}
 
 	.nav-bar ul {
-		float: left;
 		flex-direction: row;
 		gap: 50px;
+	}
+	.nav-bar ul a{
+		width: 100%;
 	}
 
 	.nav-bar ul li a.current {
@@ -167,7 +170,6 @@ body {
 
 	.nav-info {
 		display: flex;
-		background-color: blue;
 		height: 50px;
 		width: 100%;
 	}
@@ -189,7 +191,7 @@ body {
 		padding: 0px;
 		margin: 0px;
 		height: auto;
-		width: 70%;
+		width: 80%;
 	}
 
 }
