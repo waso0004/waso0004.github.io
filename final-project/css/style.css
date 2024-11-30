@@ -48,6 +48,9 @@ table {
 }
 
 /* CSS Start */
+* {
+	box-sizing: border-box;
+}
 
 h1, h2, h3, h4, h5 {
     font-weight: bold;
@@ -253,18 +256,61 @@ section {
 }
 
 .message-form {
-	width: 100%;
+	overflow: hidden;
 }
 
-.message-form form input,
-.message-form form textarea {
+.input-form input[type=text],
+.input-form input[type=email],
+.input-form textarea {
 	max-width: 100%;
 	min-width: 100%;
+}
+
+.input-form input[type=button] {
+	font-size: 1.25em;
+	color: #c78c06;
+	background-color: #222;
+	border: none;
+	float: left;
+	padding: 5px;
+	margin: 10px 0 10px 0;
 }
 
 .message-form form label {
 	display: block;
 	padding: 15px 0 0 0;
+}
+
+.hours table {
+	width: 100%;
+}
+.hours table thead tr th {
+	padding: 20px;
+	background-color: #ffe6ac;
+	border: 1px solid black;
+}
+
+.hours table tbody tr td {
+	padding: 20px;
+	border: 1px solid black;
+}
+
+.location .map iframe {
+	height: 500px;
+	width: 100%;
+}
+
+footer {
+	color: #c78c06;
+	background-color: #222;
+}
+
+footer .footer-info {
+	padding-top: 10px;
+}
+
+footer .footer-info a {
+	color: #c78c06;
 }
 
 @media screen and (min-width: 760px) {
