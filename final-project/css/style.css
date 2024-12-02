@@ -509,6 +509,10 @@ footer .footer-info a {
         grid-area: c;
     }
 
+	.john img, .bob img {
+		height: 100%;
+	}
+
     /* Contact Information Grid Layout */
     .contact-info {
         display: grid;
