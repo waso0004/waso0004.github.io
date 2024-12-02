@@ -134,10 +134,19 @@ body {
     padding: 18px 0;
 }
 
+.nav-bar ul li a:hover {
+    color: #ffffff;
+}
+
 /* Current/Active Link in Navigation */
 .nav-bar ul li a.current {
     background-color: #c78c06;
     color: #222;
+}
+
+.nav-bar ul li a.current:hover {
+    background-color: hsla(42, 94%, 40%, 0.9);
+    color: #ffffff;
 }
 
 /* Search Bar Styles */
@@ -167,6 +176,10 @@ body {
     padding: 10px 0;
     font-size: 1.5em;
     color: #c78c06;
+}
+
+.search button i:hover {
+    color: #ffffff;
 }
 
 /* Banner Section */
@@ -205,6 +218,10 @@ body {
     font-size: 1.25em;
     color: black;
     text-decoration: none;
+}
+
+.button-orange a:hover {
+    color: rgb(255, 255, 255);
 }
 
 /* About Us Section */
@@ -259,6 +276,10 @@ body {
     text-decoration: none;
 }
 
+.button-black a:hover {
+    color: rgba(255, 255, 255, 0.5);
+}
+
 /* Vision Section */
 .vision {
     background-image: url(../images/vision.jpg);
@@ -283,6 +304,10 @@ body {
 .button-transp a {
     color: white;
     text-decoration: none;
+}
+
+.button-transp a:hover {
+    color: rgba(255, 255, 255, 0.516);
 }
 
 /* Team Members Section (John and Bob) */
@@ -311,6 +336,10 @@ body {
     float: left;
     padding: 5px;
     margin: 10px 0 10px 0;
+}
+
+.input-form input[type=button]:hover {
+    color: #ffffff;
 }
 
 /* Form Label Styles */
@@ -353,6 +382,10 @@ footer .footer-info {
 
 footer .footer-info a {
     color: #c78c06;
+}
+
+footer .footer-info a:hover {
+    color: #ffffff;
 }
 
 /* Responsive Styles for Screens with a Min Width of 760px */
