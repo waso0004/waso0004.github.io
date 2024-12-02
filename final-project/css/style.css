@@ -132,10 +132,14 @@ section {
     color: #222;
 }
 
+.search{
+	height: 45px;
+}
+
 .search input {
+	height: 45px;
 	float: left;
-	height: 100%;
-	width: calc(100% - 49px);
+	width: calc(100% - 45px);
 }
 
 .search input[type=text] {
@@ -144,14 +148,14 @@ section {
 }
 
 .search button {
-	height: 43px;
-	width: 43px;
+	height: 45px;
+	width: 45px;
 	background-color: #222;
 	border: 1px solid #c78c06 ;
 }
 
 .search button i {
-	padding: 9px 0;
+	padding: 10px 0;
 	font-size: 1.5em;
 	color: #c78c06;
 }
@@ -182,7 +186,7 @@ section {
 	float: left;
 	background-color: #c78c06;
 	padding: 30px;
-	margin: 20px 0 20px 0;
+	margin: 10px 0 10px 0;
 }
 
 .button-orange a {
@@ -205,7 +209,6 @@ section {
 .bob-info {
 	overflow: hidden;
 	background-color: #ffe6ac;
-	margin-bottom: 15px;
 	padding: 10px;
 }
 
@@ -214,6 +217,7 @@ section {
 .video,
 .web,
 .print {
+	height: 100%;
 	background-color: #ffe6ac;
 }
 
@@ -374,6 +378,47 @@ footer .footer-info a {
 	.about-us-section .about-info {
 		width: 50%;
 		padding-left: 20px;
+	}
+
+	.services-section .wrapper .service-info {
+		display: grid;
+		grid-template-columns: repeat(6, 1fr);
+		grid-template-rows: auto 1fr;;
+		row-gap: 20px;
+		column-gap: 20px;
+	}
+
+	.services-section .wrapper .digital {
+
+		grid-column: 1/4;
+		grid-row: 1/2;
+	}
+
+	.services-section .wrapper .marketing {
+		grid-column: 4/7;
+		grid-row: 1/2;
+	}
+
+	.services-section .wrapper .video {
+		grid-column: 1/3;
+		grid-row: 2/3;
+	}
+
+	.services-section .wrapper .web {
+		grid-column: 3/5;
+		grid-row: 2/3;
+	}
+
+	.services-section .wrapper .print {
+		grid-column: 5/7;
+		grid-row: 2/3;
+	}
+
+
+	.button-black {
+		float: none;
+		margin-top: 10px;
+		text-align: center;
 	}
 }
 
