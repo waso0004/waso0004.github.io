@@ -47,15 +47,19 @@ table {
 	border-spacing: 0;
 }
 
-/* CSS Start */
+/*   CSS Start   */
+
+/* General Reset and Box Sizing */
 * {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
+/* Headings (h1 to h5) Styles */
 h1, h2, h3, h4, h5 {
     font-weight: bold;
 }
 
+/* Individual Heading Styles */
 h1 {
     font-size: 4rem;
     margin: 20px 0;
@@ -68,52 +72,55 @@ h2 {
 
 h3 {
     font-size: 2rem;
-	padding: 20px 0 10px 0;
+    padding: 20px 0 10px 0;
 }
 
 h4 {
-	padding-bottom: 5px;
-	border-bottom: 2px solid #c78c06;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #c78c06;
 }
 
+/* Paragraph Styles */
 p {
     font-size: 1rem;
     line-height: 1.3;
-	padding: 10px 0 10px 0;
+    padding: 10px 0 10px 0;
 }
 
+/* Image Styles */
 img {
     width: 100%;
 }
 
+/* Wrapper (General Layout Container) */
 .wrapper {
     max-width: 1200px;
-	margin: auto;
-	height: auto;
-    padding: 10px;
+    margin: auto;
+    height: auto;
+    padding: 20px;
 }
 
+/* Body (Global Font Family) */
 body {
-	font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
-section {
-	padding: 10px 0;
-}
-
+/* Logo Styles */
 .logo {
-	background-color: #c78c06;
-	padding: 10px 0 10px 0;
+    background-color: #c78c06;
+    padding: 10px 0 10px 0;
 }
 
 .logo img {
-	width: 15%;
+    width: 15%;
 }
 
+/* Navigation Section */
 .nav-info {
-	background-color: #222;
+    background-color: #222;
 }
 
+/* Navigation Bar Styles */
 .nav-bar ul {
     display: flex;
     flex-direction: column;
@@ -127,317 +134,427 @@ section {
     padding: 18px 0;
 }
 
+/* Current/Active Link in Navigation */
 .nav-bar ul li a.current {
-	background-color: #c78c06;
+    background-color: #c78c06;
     color: #222;
 }
 
-.search{
-	height: 45px;
+/* Search Bar Styles */
+.search {
+    height: 45px;
 }
 
 .search input {
-	height: 45px;
-	float: left;
-	width: calc(100% - 45px);
+    height: 45px;
+    float: left;
+    width: calc(100% - 45px);
 }
 
 .search input[type=text] {
-	padding: 10px 0;
-	font-size: 1em;
+    padding: 10px 0;
+    font-size: 1em;
 }
 
 .search button {
-	height: 45px;
-	width: 45px;
-	background-color: #222;
-	border: 1px solid #c78c06 ;
+    height: 45px;
+    width: 45px;
+    background-color: #222;
+    border: 1px solid #c78c06;
 }
 
 .search button i {
-	padding: 10px 0;
-	font-size: 1.5em;
-	color: #c78c06;
+    padding: 10px 0;
+    font-size: 1.5em;
+    color: #c78c06;
 }
 
+/* Banner Section */
 .banner {
-	padding: 50px 0 50px 0;
-	background-image: url(../images/main-banner.jpg);
-	background-size: cover;
+    padding: 50px 0 50px 0;
+    background-image: url(../images/main-banner.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .banner .banner-border {
-	overflow: hidden;
-	background-color: hsla(0, 0%, 13%, 0.7);
+    overflow: hidden;
+    background-color: hsla(0, 0%, 13%, 0.7);
 }
 
 .banner-info {
-	color: white;
+    color: white;
 }
 
+/* Banner Heading Transition Effect */
 .banner-info h1 {
-	transition: 1s;
-	line-height: 1.5em;
+    transition: 1s;
+    line-height: 1.5em;
 }
 
+/* Button with Orange Background */
 .button-orange {
-	float: left;
-	background-color: #c78c06;
-	padding: 30px;
-	margin: 10px 0 10px 0;
+    float: left;
+    background-color: #c78c06;
+    padding: 30px;
+    margin: 20px 0 20px 0;
 }
 
 .button-orange a {
-	font-size: 1.25em;
-	color: black;
-	text-decoration: none;
+    font-size: 1.25em;
+    color: black;
+    text-decoration: none;
 }
 
+/* About Us Section */
 .about-us-section {
-	background-color: #ffe6ac;
-	padding-bottom: 10px;
+    background-color: #ffe6ac;
+    padding-bottom: 10px;
 }
 
-.digital-info, 
+/* Services Information Styles */
+.digital-info,
 .marketing-info,
 .video-info,
 .web-info,
 .print-info,
 .john-info,
 .bob-info {
-	overflow: hidden;
-	background-color: #ffe6ac;
-	padding: 10px;
+    overflow: hidden;
+    background-color: #ffe6ac;
+    margin-bottom: 20px;
+    padding: 10px;
 }
 
+.digital-info h3 {
+	word-break: break-word;
+	flex-wrap: wrap;
+}
+
+.marketing-info h3 {
+	word-break: break-word;
+	flex-wrap: wrap;
+}
+
+/* Individual Service Section Backgrounds */
 .digital,
 .marketing,
 .video,
 .web,
 .print {
-	height: 100%;
-	background-color: #ffe6ac;
+    height: 100%;
+    background-color: #ffe6ac;
 }
 
+/* Button with Black Background */
 .button-black {
-	float: left;
-	background-color: #222;
-	padding: 30px;
+    float: left;
+    background-color: #222;
+    padding: 30px;
 }
 
 .button-black a {
-	color: white;
-	text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 
+/* Vision Section */
 .vision {
-	background-image: url(../images/vision.jpg);
-	background-size: cover;
+    background-image: url(../images/vision.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .vision .vision-info {
-	overflow: hidden;
-	color: white;
+    overflow: hidden;
+    color: white;
 }
 
+/* Transparent Button Style */
 .button-transp {
-	float: left;
-	border: 1px solid #c78c06;
-	background-color: hsla(0, 0%, 13%, 0.7);
-	padding: 30px;
+    float: left;
+    border: 1px solid #c78c06;
+    background-color: hsla(0, 0%, 13%, 0.7);
+    padding: 30px;
 }
 
 .button-transp a {
-	color: white;
-	text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 
+/* Team Members Section (John and Bob) */
 .john, .bob {
-	background-color: #ffe6ac;
+    background-color: #ffe6ac;
 }
 
+/* Message Form Section */
 .message-form {
-	overflow: hidden;
+    overflow: hidden;
 }
 
 .input-form input[type=text],
 .input-form input[type=email],
 .input-form textarea {
-	max-width: 100%;
-	min-width: 100%;
+    max-width: 100%;
+    min-width: 100%;
 }
 
+/* Message Form Button */
 .input-form input[type=button] {
-	font-size: 1.25em;
-	color: #c78c06;
-	background-color: #222;
-	border: none;
-	float: left;
-	padding: 5px;
-	margin: 10px 0 10px 0;
+    font-size: 1.25em;
+    color: #c78c06;
+    background-color: #222;
+    border: none;
+    float: left;
+    padding: 5px;
+    margin: 10px 0 10px 0;
 }
 
+/* Form Label Styles */
 .message-form form label {
-	display: block;
-	padding: 15px 0 0 0;
+    display: block;
+    padding: 15px 0 0 0;
 }
 
+/* Hours Section Table Styles */
 .hours table {
-	width: 100%;
+    width: 100%;
 }
+
 .hours table thead tr th {
-	padding: 20px;
-	background-color: #ffe6ac;
-	border: 1px solid black;
+    padding: 20px;
+    background-color: #ffe6ac;
+    border: 1px solid black;
 }
 
 .hours table tbody tr td {
-	padding: 20px;
-	border: 1px solid black;
+    padding: 20px;
+    border: 1px solid black;
 }
 
+/* Location Section Map Styling */
 .location .map iframe {
-	height: 500px;
-	width: 100%;
+    height: 500px;
+    width: 100%;
 }
 
+/* Footer Section */
 footer {
-	color: #c78c06;
-	background-color: #222;
+    color: #c78c06;
+    background-color: #222;
 }
 
 footer .footer-info {
-	padding-top: 10px;
+    padding-top: 10px;
 }
 
 footer .footer-info a {
-	color: #c78c06;
+    color: #c78c06;
 }
 
+/* Responsive Styles for Screens with a Min Width of 760px */
 @media screen and (min-width: 760px) {
-	.logo {
-		float: left;
-		background-color: #222;
-		padding: 0;
-	}
+    /* Logo Adjustments for Larger Screens */
+    .logo {
+        float: left;
+        background-color: #222;
+        padding: 0;
+    }
 
-	.logo img {
-		height: auto;
-		width: 80px;
-	}
+    .logo img {
+        height: auto;
+        width: 80px;
+    }
 
-	.nav-bar {
-		justify-content: space-between;
-	}
+    /* Navigation Bar Adjustments */
+    .nav-bar {
+        justify-content: space-between;
+    }
 
-	.nav-bar, 
-	.nav-bar ul {
-		display: flex;
-		align-items: center;
-	}
+    .nav-bar,
+    .nav-bar ul {
+        display: flex;
+        align-items: center;
+    }
 
-	.nav-bar ul {
-		flex-direction: row;
-		column-gap: 30px;
-		margin: 0 20px 0 20px;
+    .nav-bar ul {
+        flex-direction: row;
+        column-gap: 30px;
+        margin: 0 20px 0 20px;
+        transition: 1s;
+    }
+
+    .nav-bar ul li a.current {
+        padding: 20px 30px;
+    }
+
+    /* Banner Adjustments */
+    .banner {
+        padding: 50px 20px 50px 20px;
+    }
+
+    .banner-info h1 {
+        transition: 1s;
+    }
+
+    /* About Us Section Adjustments */
+    .about-us-section img {
+        display: none;
+    }
+
+    .about-us-section .about-img {
+        background-image: url(../images/about-us.jpg);
+        height: auto;
+        width: 50%;
+    }
+
+    .about-us-section .wrapper {
+        padding-top: 20px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .about-us-section .about-info {
+        width: 50%;
+        padding-left: 20px;
+    }
+
+    /* Services Section Adjustments */
+	.services-section h3 {
+		font-size: 1.25em;
 		transition: 1s;
 	}
+	
+    .digital-info,
+    .marketing-info,
+    .video-info,
+    .web-info,
+    .print-info,
+    .john-info,
+    .bob-info {
+        margin-bottom: 0px;
+    }
 
-	.nav-bar ul li a.current {
-		padding: 20px 30px;
-	}
+    .services-section .wrapper .service-info {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: auto 1fr;
+        row-gap: 20px;
+        column-gap: 20px;
+    }
 
-	.banner {
-		padding: 50px 20px 50px 20px;
-	}
+    /* Individual Service Placement in Grid Layout */
+    .services-section .wrapper .digital {
+        grid-column: 1/4;
+        grid-row: 1/2;
+    }
 
-	.banner-info h1 {
-		transition: 1s;
-	}
+    .services-section .wrapper .marketing {
+        grid-column: 4/7;
+        grid-row: 1/2;
+    }
 
-	.about-us-section img {
-		display: none;
-	}
+    .services-section .wrapper .video {
+        grid-column: 1/3;
+        grid-row: 2/3;
+    }
 
-	.about-us-section .about-img {
-		background-image: url(../images/about-us.jpg);
-		height: auto;
-		width: 50%;
-	}
+    .services-section .wrapper .web {
+        grid-column: 3/5;
+        grid-row: 2/3;
+    }
 
-	.about-us-section .wrapper {
-		padding-top: 20px;
-		display: flex;
-		flex-direction: row;
-	}
+    .services-section .wrapper .print {
+        grid-column: 5/7;
+        grid-row: 2/3;
+    }
 
-	.about-us-section .about-info {
-		width: 50%;
-		padding-left: 20px;
-	}
+    /* Button Alignment Adjustments */
+    .button-black {
+        float: none;
+        margin-top: 10px;
+        text-align: center;
+    }
 
-	.services-section .wrapper .service-info {
-		display: grid;
-		grid-template-columns: repeat(6, 1fr);
-		grid-template-rows: auto 1fr;;
-		row-gap: 20px;
-		column-gap: 20px;
-	}
+    /* Team Information Grid Layout */
+    .team-info {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: 
+            "a b"
+            "c d";
+    }
 
-	.services-section .wrapper .digital {
+    .team-info h3 {
+        padding: 10px 0 10px 0;
+    }
 
-		grid-column: 1/4;
-		grid-row: 1/2;
-	}
+    .john {
+        grid-area: a;
+    }
 
-	.services-section .wrapper .marketing {
-		grid-column: 4/7;
-		grid-row: 1/2;
-	}
+    .john-info {
+        grid-area: b;
+    }
 
-	.services-section .wrapper .video {
-		grid-column: 1/3;
-		grid-row: 2/3;
-	}
+    .bob {
+        grid-area: d;
+    }
 
-	.services-section .wrapper .web {
-		grid-column: 3/5;
-		grid-row: 2/3;
-	}
+    .bob-info {
+        grid-area: c;
+    }
 
-	.services-section .wrapper .print {
-		grid-column: 5/7;
-		grid-row: 2/3;
-	}
+    /* Contact Information Grid Layout */
+    .contact-info {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 
+            "a b"
+            "c c";
+        column-gap: 20px;
+    }
 
-	.button-black {
-		float: none;
-		margin-top: 10px;
-		text-align: center;
-	}
+    .message-form {
+        grid-area: a;
+    }
+
+    .location {
+        grid-area: b;
+    }
+
+    .hours {
+        grid-area: c;
+    }
 }
 
+/* Responsive Styles for Screens with a Min Width of 1200px */
 @media screen and (min-width: 1200px) {
-	.nav-bar ul {
+	.services-section h3 {
+		font-size: 2rem;
 		transition: 1s;
-		column-gap: 100px;
 	}
 
-	.banner {
-		padding: 50px 20px 50px 20px;
-	}
+    .nav-bar ul {
+        transition: 1s;
+        column-gap: 100px;
+    }
 
-	.banner .banner-border {
-		margin: 0 auto;
-		max-width: 1240px;
-	}
+    .banner {
+        padding: 50px 20px 50px 20px;
+    }
 
-	.banner-info h1 {
-		transition: 1s;
-		font-size: 6em;
-	}
+    .banner .banner-border {
+        margin: 0 auto;
+        max-width: 1240px;
+    }
+
+    .banner-info h1 {
+        transition: 1s;
+        font-size: 6em;
+    }
 }
