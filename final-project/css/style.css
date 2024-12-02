@@ -144,7 +144,8 @@ section {
 }
 
 .search button {
-	width: 45px;
+	height: 43px;
+	width: 43px;
 	background-color: #222;
 	border: 1px solid #c78c06 ;
 }
